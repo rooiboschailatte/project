@@ -11,9 +11,9 @@
 library(dplyr)
 
 ## Download, unzip and move into data directory
-#url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#download.file(url,destfile="Dataset.zip",mode="wb")
-#unzip("Dataset.zip")
+url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(url,destfile="Dataset.zip",mode="wb")
+unzip("Dataset.zip")
 setwd("./UCI HAR Dataset")
 
 ## Read in activity labels and measurement variable labels.
